@@ -1,0 +1,122 @@
+*{
+    font-family: sans-serif;
+    margin: 0;   /*Margem Externa*/
+    padding: 0;  /*Margem Interna*/
+    box-sizing: border-box;
+}
+/*menu superior*/
+.Caixa-roxa{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d3d3d3;
+}
+ul{
+    display: flex;
+    gap:100px;
+    list-style: none;
+    margin-left: 100px;
+}
+li{
+    font-size: 12px;
+    font-weight: 400;
+    color: #373737;
+}
+.logo-do-sucesso{
+    height: 20px;
+}
+
+
+/*Parte inferior*/
+.caixa-azul{
+   display: flex;
+   justify-content: space-between;
+   padding: 50px;
+   align-items: center;
+}
+.titulo-iphone {
+    font-size: 30px;
+}
+.Poderoso{
+    font-size:40px;/*Tamanho de texo*/
+    margin-top: 10px;/*Margem parte de cima*/
+    margin-bottom: 20px;/*Margem parte baixo*/
+}
+.Paragrafo{
+    font-size:15px ;
+    margin-bottom: 25px;
+}
+.Preco{
+    font-size: 20px;
+    color: #626262;
+    font-weight: 300;
+    margin-bottom: 30px;
+    
+}
+.Botao{
+    background-color: #0071e3;
+    color: #ffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.troca-cor{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.azul{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: #81a5c4;
+
+}
+.Amarelo{
+    
+    background-color:#F7DA47;
+}
+.branco{
+    
+    background-color: #C1C1C1;
+}
+.preto{
+    
+    background-color: #272D33;
+}
+.vermelho{
+    
+    background-color:#B50012;
+}
+.roxo{
+    
+    background-color: #EDE7F1;
+}
+.escolha{
+    font-size: 16px;
+    color:#3a3a3a;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.iphone{
+    width:200pt;
+    margin-top: 100px;
+    z-index: 99;
+}
+.circulo{
+    width: 100%;
+    height: 100%;
+    background:#81a5c4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    clip-path: circle(600px at right 1000px);
+}
